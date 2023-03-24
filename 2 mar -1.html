@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <style type="text/css">
+
+          #box
+           {
+               border: 6px solid rgb(222, 62, 62) ;
+               height: 100px;
+               width: 200px;
+               background-color: rgb(237, 214, 207);
+               margin: 100px;
+
+           }
+
+           #box:hover
+           {
+                /* transform: translate(50px,20px);
+                transform: translateY(35px); */
+                /* transform: rotate(25deg); */
+                /* transform: scale(1.5); */
+                /* transform-origin: left top; */
+                /* transform: skewX(21deg); */
+                /* transform: skew(23deg, 35deg); */
+                /* transform: matrix(1,0,5,0,0,0,0); */
+
+                transition-property: width,background-color,height;
+                width: 500px;
+                height: 50px;
+                transition-duration: 9s,8s,4s;
+                transition-delay: 0.3s;
+                background-color: rgb(29, 106, 106);
+                transition-timing-function: steps(4);
+
+
+                transition: width.5s.;
+
+
+
+               
+
+            }
+
+        </style>
+    
+
+    </head>
+
+
+        <body>
+              
+            <div id="box"></div>
+    
+        </body>
+
+
+
+</html>
